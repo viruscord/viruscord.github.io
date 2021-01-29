@@ -1,0 +1,47 @@
+body {
+    margin: 20px;
+    background-color: #2f3136;
+    color: white;
+}
+::placeholder, body, button, input, select, textarea {
+    font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
+    text-rendering: optimizeLegibility;
+}
+pre {
+    margin: 0
+}
+.user-name {
+    color: rgb(241, 196, 15);
+    font-weight: bold;
+}
+.dev-name {
+    color: #FF0000;
+}
+
+/** Shamelessly stolen from https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_top */
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+    background-color: rgba(114,137,218,.1);
+    color: #7289da;
+}
+
+.tooltip .tooltiptext {
+    display: none;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 0
+}
+
+.tooltip:hover .tooltiptext {
+    display: inherit;
+}

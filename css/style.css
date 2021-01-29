@@ -1,0 +1,123 @@
+.navbar-nav a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.navbar-light .navbar-brand {
+    color: #FFF;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: #FFF;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #FFF;
+}
+
+.navbar-nav {
+    text-align: center;
+}
+
+.nav-link {
+    padding: .2rem 1rem;
+}
+
+.nav-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #FFF;
+}
+
+.w-100 {
+    height: 100vh;
+}
+
+@media only screen and (max-width: 767px) {
+    .navbar-nav.ml-auto {
+        background: rgba(0, 0, 0, 0.5);
+    }
+
+    .navbar-toggler {
+        padding: 1px 5px;
+        font-size: 18px;
+        line-height: 0.3;
+        background: rgba(32,34,37,1);
+    }
+}
+
+.AnimedTitle {
+    background-color: #dc3545;
+    font-size: 70px;
+    font-weight: 700;
+    background-image: linear-gradient(-75deg,
+            transparent 0,
+            transparent 5%,
+            rgba(255, 255, 255, 0.5) 5%,
+            rgba(255, 255, 255, 0.5) 10%,
+            transparent 10%,
+            transparent 100%);
+    background-size: 200% 100%;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    transition: 1.2s;
+}
+
+.AnimedTitle:hover {
+    background-position: -120% 0;
+}
+
+.gradientTop {
+    background: rgba(32,34,37,1);
+    background: linear-gradient(rgba(32,34,37,1) 10%, rgba(32,34,37,0) 100%);
+}
+.gradientBottom {
+    background: rgba(32,34,37,0);
+    background: linear-gradient(rgba(32,34,37,0) 0%, rgba(32,34,37,1) 50%);
+}
+
+.icon.icon-border {
+    border-color: #dc3545;
+    color: #dc3545;
+}
+
+.icon {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 30px;
+    border: solid 1px #2065a1;
+    color: #dc3545;
+    -webkit-transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+    transition: all .2s ease-out;
+    font-size: 30px;
+    margin: 0 auto 30px;
+    text-align: center;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+    background-color: #36393f;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(105, 105, 105, 0.3);
+    box-shadow: 6px;
+    border-radius: 10px
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.5);
+    box-shadow: 6px
+}
